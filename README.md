@@ -63,3 +63,5 @@ I have included a [relational diagram](http://www.slideshare.net/AllanMarube/sma
 - http://public.dhe.ibm.com/software/dw/webservices/ws-mqtt/mqtt-v3r1.html
 - http://www.slideshare.net/BryanBoyd/dynamic-apps-with-websockets-and-mqtt-ibm-impact-2014
 - http://www.slideshare.net/AllanMarube/smart-boarddiagram-38627291
+
+If you have any comments or suggestions for improvements, please create an Issue or better yet submit a Pull Request. If you do submit a Pull Request please indicate in the Pull Request that you accept and agree to be bound by the terms of the IBM Contributor License Agreement that can be found in the CLA.md file in the repository.
