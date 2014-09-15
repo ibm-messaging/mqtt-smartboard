@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--*******************************************************************************
+* Copyright (c) 2014 IBM Corp.
+*
+* All rights reserved. This program and the accompanying materials
+* are made available under the terms of the Eclipse Public License v1.0
+* and Eclipse Distribution License v1.0 which accompany this distribution.
+*
+* The Eclipse Public License is available at
+*   http://www.eclipse.org/legal/epl-v10.html
+* and the Eclipse Distribution License is available at
+*   http://www.eclipse.org/org/documents/edl-v10.php.
+*
+* Contributors: Allan Marube
+*
+*******************************************************************************-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="fill_parent"
+              android:layout_height="wrap_content" >
+
+    <LinearLayout
+            android:id="@+id/singleMessageContainer"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content" >
+        <ImageView
+                android:id="@+id/img"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:maxHeight="50dp"
+                android:maxWidth="50dp"
+                android:src = "@drawable/ic_launcher" />
+
+        <TextView
+                android:id="@+id/singleMessage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_margin="5dip"
+
+                android:paddingLeft="10dip"
+                android:textColor="@android:color/primary_text_light" />
+        <ImageView
+                android:id="@+id/imgDisp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src = "@drawable/ic_launcher"
+                />
+        <VideoView android:layout_width= "0dp" android:layout_height= "0dp"
+                android:id = "@+id/videoView"
+                />
+
+    </LinearLayout>
+
+</LinearLayout>

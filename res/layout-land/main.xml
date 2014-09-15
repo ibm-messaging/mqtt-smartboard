@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--*******************************************************************************
+* Copyright (c) 2014 IBM Corp.
+*
+* All rights reserved. This program and the accompanying materials
+* are made available under the terms of the Eclipse Public License v1.0
+* and Eclipse Distribution License v1.0 which accompany this distribution.
+*
+* The Eclipse Public License is available at
+*   http://www.eclipse.org/legal/epl-v10.html
+* and the Eclipse Distribution License is available at
+*   http://www.eclipse.org/org/documents/edl-v10.php.
+*
+* Contributors: Allan Marube
+*
+*******************************************************************************-->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#FFFAF0"
+              tools:context=".MyActivity"
+              android:weightSum="1"
+        android:id = "@+id/drawingLayout">
+
+    <com.example.SmartBoard.DrawingView
+            android:id="@+id/drawing"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:background="#FFFFFFFF"
+            android:layout_weight="0.70"/>
+
+    <ListView
+            android:layout_width="180dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/usersListView"
+            android:background="@android:color/transparent"/>
+</LinearLayout>
+

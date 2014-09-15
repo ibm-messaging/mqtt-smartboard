@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--*******************************************************************************
+* Copyright (c) 2014 IBM Corp.
+*
+* All rights reserved. This program and the accompanying materials
+* are made available under the terms of the Eclipse Public License v1.0
+* and Eclipse Distribution License v1.0 which accompany this distribution.
+*
+* The Eclipse Public License is available at
+*   http://www.eclipse.org/legal/epl-v10.html
+* and the Eclipse Distribution License is available at
+*   http://www.eclipse.org/org/documents/edl-v10.php.
+*
+* Contributors: Allan Marube
+*
+*******************************************************************************-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+    <!-- Settings, should always be in the overflow -->
+    <item android:id = "@+id/text"
+          android:title = "text"
+          android:showAsAction="always"
+          android:icon = "@drawable/abc"/>
+
+
+    <item android:id="@+id/brush"
+          android:title="@string/brush"
+          android:showAsAction="always"
+          android:icon="@drawable/pencil_icon">
+        <menu>
+            <item android:id ="@+id/small"
+                  android:title = "Small"
+                    />
+            <item android:id ="@+id/medium"
+                  android:title = "Medium"
+                    />
+            <item android:id ="@+id/large"
+                  android:title = "Large"
+                    />
+        </menu>
+
+    </item>
+
+    <item android:id = "@+id/shapes"
+          android:title = "Shapes"
+          android:showAsAction="always"
+          android:icon = "@drawable/shapes_icon">
+
+        <menu>
+            <item android:id ="@+id/circle"
+                  android:title = "circle"
+                  android:icon="@drawable/circle_shape"
+                    />
+            <item android:id ="@+id/rectangle"
+                  android:title = "rectangle"
+                  android:icon="@drawable/rectangle_shape"
+                    />
+            <item android:id ="@+id/line"
+                  android:title = "line"
+                  android:icon="@drawable/line_shape"
+                    />
+
+        </menu>
+
+    </item>
+
+    <item android:id = "@+id/colorDrop"
+          android:title = "Paint"
+          android:showAsAction="always"
+          android:icon="@drawable/drop_color_iconpng">
+
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+            <item android:id = "@+id/blackDropper"
+                  android:title="@string/Black"
+                  android:icon="@drawable/circle_black">
+            </item>
+            <item android:id = "@+id/blueDroppper"
+                  android:title="@string/Blue"
+                  android:icon="@drawable/circle_blue_16">
+            </item>
+
+            <item android:id = "@+id/redDropper"
+                  android:title="@string/Red"
+                  android:icon="@drawable/circle_red">
+            </item>
+
+            <item android:id = "@+id/greenDropper"
+                  android:icon = "@drawable/circle_green"
+                  android:title="Green"
+                    >
+
+
+            </item>
+        </menu>
+    </item>
+
+    <item android:id="@+id/resizeText"
+            android:title = "Resize Text"
+            android:icon = "@drawable/font_size"
+            android:showAsAction="always">
+        <menu>
+            <item android:id ="@+id/smallText"
+                  android:title = "Small"
+                    />
+            <item android:id ="@+id/mediumText"
+                  android:title = "Medium"
+                    />
+            <item android:id ="@+id/largeText"
+                  android:title = "Large"
+                    />
+        </menu>
+            </item>
+
+    <item android:id="@+id/deleteObject"
+          android:title="Delete"
+          android:showAsAction="always"
+          android:icon="@drawable/trash"/>
+
+    <item android:id="@+id/erase"
+          android:title="Erase"
+          android:showAsAction="always"
+          android:icon="@drawable/eraser">
+        <menu>
+            <item android:id ="@+id/smallE"
+                  android:title = "Small"
+                    />
+            <item android:id ="@+id/mediumE"
+                  android:title = "Medium"
+                    />
+            <item android:id ="@+id/largeE"
+                  android:title = "Large"
+                    />
+
+        </menu>
+    </item>
+
+
+    <item android:id = "@+id/drag"
+          android:title = "drag"
+          android:icon = "@drawable/pointer"
+          android:showAsAction="always"
+            />
+    <item android:id="@+id/chat"
+          android:title="Chat"
+          android:icon="@drawable/talk_chat"
+          android:showAsAction="always"></item>
+
+    <item android:id="@+id/color"
+          android:title="@string/color"
+          android:showAsAction="never">
+
+        <menu xmlns:android="http://schemas.android.com/apk/res/android">
+            <item android:id = "@+id/blue"
+                  android:title="@string/Blue"
+                    android:icon="@drawable/circle_blue_16">
+            </item>
+            <item android:id = "@+id/black"
+                  android:title="@string/Black"
+                    android:icon="@drawable/circle_black">
+            </item>
+            <item android:id = "@+id/red"
+                  android:title="@string/Red"
+                    android:icon="@drawable/circle_red">
+            </item>
+            <item android:id = "@+id/green"
+                  android:title="Green"
+                  android:icon="@drawable/circle_green">
+            </item>
+
+
+        </menu>
+    </item>
+
+    <item android:id="@+id/save"
+          android:title="Save Design"
+          android:showAsAction="never" />
+    <item android:id="@+id/print"
+          android:title="Print"
+          android:showAsAction="never" />
+    <item android:id="@+id/clear"
+          android:title="@string/clear"
+          android:showAsAction="never"/>
+    <item android:id="@+id/exit"
+          android:title="Exit Room"
+            ></item>
+
+
+
+
+</menu>
