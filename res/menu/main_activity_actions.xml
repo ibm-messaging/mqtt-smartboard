@@ -146,7 +146,7 @@
     <item android:id="@+id/chat"
           android:title="Chat"
           android:icon="@drawable/talk_chat"
-          android:showAsAction="always"></item>
+          android:showAsAction="ifRoom"></item>
 
     <item android:id="@+id/color"
           android:title="@string/color"
